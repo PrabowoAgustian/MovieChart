@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".searchresult.SearchResultActivity">
+
+    <include android:id="@+id/toolbar_search_results" layout="@layout/toolbar_search_results"/>
+
+    <TextView
+        android:id="@+id/tv_showing_results"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/text"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:background="@color/main_color_bg"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color_bg"
+        app:tabTextColor="@color/text"
+        app:tabTextAppearance="@style/myCustomTabText"
+        app:tabIndicatorColor="@color/white"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

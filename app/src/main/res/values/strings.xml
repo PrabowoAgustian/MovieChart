@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MovieChart</string>
+    <string name="movies">Movies</string>
+    <string name="tv_shows">TV Shows</string>
+    <string name="hello">Hello!</string>
+    <string name="watch">Watch your favorite movie</string>
+    <string name="title">Title</string>
+    <string name="duration">duration</string>
+    <string name="rating">rating</string>
+    <string name="seasons">Seasons</string>
+    <string name="episodes">Episodes</string>
+    <string name="author">By Author</string>
+    <string name="watch_trailer">Watch trailer</string>
+    <string name="overview">Overview</string>
+    <string name="dummy_stars">6.0</string>
+    <string name="dummy_overview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vestibulum libero neque, dictum accumsan velit aliquet a. Cras vehicula metus quis odio suscipit, sagittis ultrices leo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</string>
+    <string name="cast">Cast</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="name_row">Name:</string>
+    <string name="dummy">Lorem ipsum</string>
+    <string name="email">Email:</string>
+    <string name="my_email">loremipsum@mail.com</string>
+    <string name="top_picks">Top Picks</string>
+    <string name="search_hint">Search for movies or TV shows...</string>
+    <string name="search_results">Search Results</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="release_date">Release date</string>
+    <string name="no_result">We\'re sorry! Your search did not match any of our data!</string>
+    <string name="length">Length</string>
+    <string name="popularity">Popularity</string>
+    <string name="dummy_length">1h 25m</string>
+    <string name="safe_for_kids">Safe for Kids</string>
+    <string name="dummy_popularity">59.85</string>
+    <string name="details">Details</string>
+    <string name="click_to_watch_trailer">Click to watch trailer!</string>
+    <string name="movies_splash">movies.</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="tv_show_details">TV Show Details</string>
+    <string name="your_favorites">Favorites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="currently_you_have_no_favorites_search_it_up_and_add_it_here">Currently you have no favorites! Search it up and add it here!</string>
+</resources>
